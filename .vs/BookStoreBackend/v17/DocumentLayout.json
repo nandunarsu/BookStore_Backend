@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\repositorylayer\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\repositorylayer\\entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\repositorylayer\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB907673-5CD0-4F21-B7AE-8FDE27BAAC37}|BookStoreBackend\\BookStoreBackend.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\bookstorebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB907673-5CD0-4F21-B7AE-8FDE27BAAC37}|BookStoreBackend\\BookStoreBackend.csproj|solutionrelative:bookstorebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\repositorylayer\\service\\cartservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\service\\cartservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\repositorylayer\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\repositorylayer\\entity\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB907673-5CD0-4F21-B7AE-8FDE27BAAC37}|BookStoreBackend\\BookStoreBackend.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\bookstorebackend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB907673-5CD0-4F21-B7AE-8FDE27BAAC37}|BookStoreBackend\\BookStoreBackend.csproj|solutionrelative:bookstorebackend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1677C6C4-DD62-49C3-AB1B-A64B387B1FBB}|BussinessLayer\\BussinessLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\bussinesslayer\\interface\\cartinterfacebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1677C6C4-DD62-49C3-AB1B-A64B387B1FBB}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\interface\\cartinterfacebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1677C6C4-DD62-49C3-AB1B-A64B387B1FBB}|BussinessLayer\\BussinessLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\bussinesslayer\\service\\cartservicebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1677C6C4-DD62-49C3-AB1B-A64B387B1FBB}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\service\\cartservicebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\repositorylayer\\interface\\cartinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\cartinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEB1EBA-1474-4235-834A-538791CFBA15}|ModelLayer\\ModelLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\modellayer\\cart\\cartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEB1EBA-1474-4235-834A-538791CFBA15}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\cart\\cartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB907673-5CD0-4F21-B7AE-8FDE27BAAC37}|BookStoreBackend\\BookStoreBackend.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\bookstorebackend\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB907673-5CD0-4F21-B7AE-8FDE27BAAC37}|BookStoreBackend\\BookStoreBackend.csproj|solutionrelative:bookstorebackend\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\repositorylayer\\interface\\bookinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A55D8-ABF7-4C6D-A03B-F22D1559355A}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\bookinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEB1EBA-1474-4235-834A-538791CFBA15}|ModelLayer\\ModelLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\modellayer\\cart\\cartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEB1EBA-1474-4235-834A-538791CFBA15}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\cart\\cartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEB1EBA-1474-4235-834A-538791CFBA15}|ModelLayer\\ModelLayer.csproj|c:\\users\\nandini\\source\\repos\\bookstorebackend\\modellayer\\book\\bookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEB1EBA-1474-4235-834A-538791CFBA15}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\book\\bookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 244,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Service\\BookService.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Service\\BookService.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Service\\BookService.cs",
+              "RelativeToolTip": "RepositoryLayer\\Service\\BookService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T10:53:31.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Service\\UserServices.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Service\\UserServices.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Service\\UserServices.cs",
+              "RelativeToolTip": "RepositoryLayer\\Service\\UserServices.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:37:22.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Entity\\Cart.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Entity\\Cart.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Entity\\Cart.cs",
+              "RelativeToolTip": "RepositoryLayer\\Entity\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:23:00.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartServices.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Service\\CartServices.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Service\\CartServices.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Service\\CartServices.cs",
+              "RelativeToolTip": "RepositoryLayer\\Service\\CartServices.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABYAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T07:42:44.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartInterfaceBL.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BussinessLayer\\Interface\\CartInterfaceBL.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\Interface\\CartInterfaceBL.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BussinessLayer\\Interface\\CartInterfaceBL.cs",
+              "RelativeToolTip": "BussinessLayer\\Interface\\CartInterfaceBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T07:56:24.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartServiceBL.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BussinessLayer\\Service\\CartServiceBL.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\Service\\CartServiceBL.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BussinessLayer\\Service\\CartServiceBL.cs",
+              "RelativeToolTip": "BussinessLayer\\Service\\CartServiceBL.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAD8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T07:59:39.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BookStoreBackend\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "BookStoreBackend\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BookStoreBackend\\Controllers\\CartController.cs",
+              "RelativeToolTip": "BookStoreBackend\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T07:55:35.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BookStoreBackend\\Program.cs",
+              "RelativeDocumentMoniker": "BookStoreBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BookStoreBackend\\Program.cs",
+              "RelativeToolTip": "BookStoreBackend\\Program.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:01:22.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartInterface.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Interface\\CartInterface.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\CartInterface.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Interface\\CartInterface.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\CartInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T07:43:17.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Entity\\Book.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Entity\\Book.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Entity\\Book.cs",
+              "RelativeToolTip": "RepositoryLayer\\Entity\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:12:16.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Entity\\UserEntity.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Entity\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Entity\\UserEntity.cs",
+              "RelativeToolTip": "RepositoryLayer\\Entity\\UserEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:24:38.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\ModelLayer\\Cart\\CartRequest.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Cart\\CartRequest.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\ModelLayer\\Cart\\CartRequest.cs",
+              "RelativeToolTip": "ModelLayer\\Cart\\CartRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:12:30.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BookStoreBackend\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookStoreBackend\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\BookStoreBackend\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookStoreBackend\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAFgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:16:34.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartResponse.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\ModelLayer\\Cart\\CartResponse.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Cart\\CartResponse.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\ModelLayer\\Cart\\CartResponse.cs",
+              "RelativeToolTip": "ModelLayer\\Cart\\CartResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T07:45:14.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookInterface.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Interface\\BookInterface.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\BookInterface.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\RepositoryLayer\\Interface\\BookInterface.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\BookInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:24:22.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookRequest.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\ModelLayer\\Book\\BookRequest.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Book\\BookRequest.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\BookStoreBackend\\ModelLayer\\Book\\BookRequest.cs",
+              "RelativeToolTip": "ModelLayer\\Book\\BookRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:58:31.203Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 156,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
