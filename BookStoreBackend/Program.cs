@@ -22,6 +22,8 @@ builder.Services.AddScoped<BookInterface, BookService>();
 builder.Services.AddScoped<BookInterfacebl, BookServicebl>();
 builder.Services.AddScoped<CartInterface, CartServices>();
 builder.Services.AddScoped<CartInterfaceBL, CartServiceBL>();
+builder.Services.AddScoped<IAddress, AddressService>();
+builder.Services.AddScoped<IAddressBL, AddressServiceBL>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
