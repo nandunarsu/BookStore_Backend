@@ -26,7 +26,7 @@ namespace RepositoryLayer.Service
                                        VALUES (@BookName, @BookImage, @Description, @AuthorName, @Quantity, @Price)";
             using (var connection = Context.CreateConnection())
             {
-                int data = await connection.ExecuteAsync(insertQuery, book);
+                var data = await connection.ExecuteAsync(insertQuery, book);
                 return data > 0;
             }
         }

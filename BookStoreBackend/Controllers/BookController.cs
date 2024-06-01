@@ -26,7 +26,8 @@ namespace BookStoreBackend.Controllers
                 var response = new ResponseModel<string>
                 {
                     Success = true,
-                    Message = "Book Added Successfully"
+                    Message = "Book Added Successfully",
+                    Data = true
 
                 };
                 return Ok(response);
@@ -51,13 +52,13 @@ namespace BookStoreBackend.Controllers
             {
                 var book = await _book.getAllBook();
 
-                //var response = new ResponseModel<IEnumerable<Book>>
-                //{
-                //    Success = true,
-                //    Message = "Book Details",
-                //    Data = book
+                var response = new ResponseModel<IEnumerable<Book>>
+                {
+                    Success = true,
+                    Message = "Book Details",
+                    Data = book
 
-                //};
+                };
                 return Ok(book);
             }
             catch (Exception ex)
@@ -67,7 +68,7 @@ namespace BookStoreBackend.Controllers
                 {
                     Success = false,
                     Message = ex.Message,
-                    Data = null
+                    Data = ex.Message
                 };
                 return Ok(response);
             }
@@ -80,13 +81,13 @@ namespace BookStoreBackend.Controllers
             {
                 var book = await _book.getBookById(bId);
 
-                //var response = new ResponseModel<Book>
-                //{
-                //    Success = true,
-                //    Message = "Book by id",
-                //    Data = book
+                var response = new ResponseModel<Book>
+                {
+                    Success = true,
+                    Message = "Book by id",
+                    Data = book
 
-                //};
+                };
                 return Ok(book);
             }
             catch (Exception ex)

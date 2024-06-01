@@ -6,6 +6,7 @@ using RepositoryLayer.Interface;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -58,6 +59,36 @@ namespace RepositoryLayer.Service
             string query = @"UPDATE Cart SET quantity = @Quantity WHERE cartId = @CartId";
             int rowsAffected = con.Execute(query, new { CartId = cartId, Quantity = quantity });
             return rowsAffected > 0;
+        }
+        public bool DeleteCart(int userId, int cartId)
+        {
+            try
+            {
+                using (var connection = context.CreateConnection())
+                {
+                    var parameters = new DynamicParameters();
+                    parameters.Add("@UserId", userId);
+                    parameters.Add("@CartId", cartId);
+                    if (IsCartItemExists(userId, cartId))
+                    {
+                        connection.Execute("spDeleteCartItem", parameters, commandType: CommandType.StoredProcedure);
+
+                    }
+                    return true;
+                }
+            }catch(SqlException ex)
+            {
+                throw ex;
+            }
+        }
+        private bool IsCartItemExists(int userId, int cartId)
+        {
+            string query = "SELECT COUNT(*) FROM Cart WHERE UserId = @UserId AND CartId = @CartId";
+            using (var connection = context.CreateConnection())
+            {
+                var count = connection.ExecuteScalar<int>(query, new { UserId = userId, CartId = cartId });
+                return count > 0;
+            }
         }
     }
 }

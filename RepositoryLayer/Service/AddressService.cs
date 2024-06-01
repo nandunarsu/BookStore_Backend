@@ -1,11 +1,14 @@
 ﻿using Dapper;
 using ModelLayer.Address;
 using RepositoryLayer.Context;
+using RepositoryLayer.Entity;
 using RepositoryLayer.Interface;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -44,6 +47,65 @@ namespace RepositoryLayer.Service
                 throw new Exception($"Error: {ex.Message}");
             }
         }
+        public List<Object> GetAddress(int userId)
+        {
+            try
+            {
+                using (var connection = context.CreateConnection())
+                {
+                    var addresses = connection.Query<Object>("spGetAddress", new { userId = userId }, commandType: CommandType.StoredProcedure);
+                    return (List<object>)addresses;
+                }
+            }
+            catch(SqlException ex)
+            {
+                throw ex;
+            }
+        }
+        public Address UpdateAddress(int userId, Address addressRequest)
+        {
+            try
+            {
+                using (var connection = context.CreateConnection())
+                {
+                    var parameters = new DynamicParameters();
+                    parameters.Add("@addressId", addressRequest.addressId);
+                    parameters.Add("@name", addressRequest.name);
+                    parameters.Add("@mobileNumber", addressRequest.mobileNumber);
+                    parameters.Add("@address", addressRequest.address);
+                    parameters.Add("@city", addressRequest.city);
+                    parameters.Add("@type", addressRequest.type);
+                    parameters.Add("@state", addressRequest.state);
+                    parameters.Add("@userId", userId);
+
+                    connection.Execute("spUpdateAddress", parameters, commandType: CommandType.StoredProcedure);
+                    return addressRequest;
+                }
+            }catch(SqlException ex)
+            {
+                throw ex;
+            }
+           
+        }
+        public bool DeleteAddress(int addressId)
+        {
+            try
+            {
+                using (var connection = context.CreateConnection())
+                {
+                    var parameters = new DynamicParameters();
+                    parameters.Add("@addressId", addressId);
+
+
+                    var result = connection.Execute("Deleteaddress", parameters, commandType: CommandType.StoredProcedure);
+                    return result > 0;
+                }
+            }catch (SqlException ex)
+            {
+                throw ex; 
+            }
+        }
+
 
     }
 }

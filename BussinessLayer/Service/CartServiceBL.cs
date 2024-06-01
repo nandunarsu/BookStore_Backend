@@ -85,6 +85,10 @@ namespace BussinessLayer.Service
         {
             return _cart.unCart(cartId, userId);
         }
+        public bool DeleteCart(int userId, int cartId)
+        {
+            return _cart.DeleteCart(userId, cartId);
+        }
 
     }
 }

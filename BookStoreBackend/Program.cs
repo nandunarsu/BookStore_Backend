@@ -24,6 +24,10 @@ builder.Services.AddScoped<CartInterface, CartServices>();
 builder.Services.AddScoped<CartInterfaceBL, CartServiceBL>();
 builder.Services.AddScoped<IAddress, AddressService>();
 builder.Services.AddScoped<IAddressBL, AddressServiceBL>();
+builder.Services.AddScoped<IOrder,OrderServices>();
+builder.Services.AddScoped<IOrderBL, OrderServiceBL>();
+builder.Services.AddScoped<WishListInteface, WishListService>();
+builder.Services.AddScoped<WishListInterfaceBL, WishListServiceBL>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

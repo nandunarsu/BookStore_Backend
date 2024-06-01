@@ -14,6 +14,6 @@ namespace ModelLayer.Response
         public bool Success { get; set; } = true;
         public string Message { get; set; } = string.Empty;
 
-        public string Data { get; set; }
+        public object Data { get; set; }
     }
 }

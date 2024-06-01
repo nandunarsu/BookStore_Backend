@@ -15,5 +15,7 @@ namespace RepositoryLayer.Interface
         bool unCart(int cartId, int userId);
         bool updateCartOrder(int cartId, bool isOrdered);
         bool updateCartquantity(int cartId, int quantity);
+
+        public bool DeleteCart(int userId, int cartId);
     }
 }
